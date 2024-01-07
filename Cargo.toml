@@ -1,0 +1,6 @@
+[workspace]
+members = ["host", "plugin-interface", "plugins/*"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
